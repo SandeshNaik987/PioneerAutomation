@@ -2,7 +2,7 @@ package Tests;
 
 import org.testng.annotations.Test;
 
-public class Events {
+public class FotaTest {
 		@Test
 		public void new12() {
 		System.out.println("success");}

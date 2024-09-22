@@ -2,14 +2,14 @@
 <suite name="Suite" verbose="1">
     <test name="SampleTest">
         <classes>
-            <class name="Tests.BaseClass"/>
-            <class name="Tests.OnBoarding"/>
-            <class name="Tests.LiveView"/>
-            <class name="Tests.Gallery"/>
-            <class name="Tests.Events"/>
-            <class name="Tests.settings"/>
-            <class name="Tests.Menu"/>
-            <class name="Tests.Fota"/>
+            <class name="Tests.BaseClassTest"/>
+            <class name="Tests.OnBoardingTest"/>
+            <class name="Tests.LiveViewTest"/>
+            <class name="Tests.GalleryTest"/>
+            <class name="Tests.EventsTest"/>
+            <class name="Tests.SettingsTest"/>
+            <class name="Tests.MenuTest"/>
+            <class name="Tests.FotaTest"/>
         </classes>
     </test>
 </suite>

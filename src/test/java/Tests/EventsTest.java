@@ -2,7 +2,7 @@ package Tests;
 
 import org.testng.annotations.Test;
 
-public class Menu {
+public class EventsTest {
 		@Test
 		public void new12() {
 		System.out.println("success");}

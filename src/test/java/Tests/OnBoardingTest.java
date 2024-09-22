@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
 
-public class OnBoarding extends BaseClass {
+public class OnBoardingTest extends BaseClassTest {
 	@Test
     public void testLogin() throws InterruptedException {
 		Thread.sleep(5000);

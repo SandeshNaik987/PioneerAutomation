@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.options.BaseOptions;
 
-public class BaseClass {
+public class BaseClassTest {
 
     public AndroidDriver driver;
 
