@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="7" passed="6" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-22T14:51:29 IST" name="Default suite" finished-at="2024-09-22T14:51:30 IST" duration-ms="509">
+  <suite started-at="2024-09-22T17:15:57 IST" name="Default suite" finished-at="2024-09-22T17:15:58 IST" duration-ms="513">
     <groups>
     </groups>
-    <test started-at="2024-09-22T14:51:29 IST" name="Default test" finished-at="2024-09-22T14:51:30 IST" duration-ms="509">
+    <test started-at="2024-09-22T17:15:57 IST" name="Default test" finished-at="2024-09-22T17:15:58 IST" duration-ms="513">
       <class name="Tests.Menu">
-        <test-method signature="new12()[pri:0, instance:Tests.Menu@3e62d773]" started-at="2024-09-22T14:51:29 IST" name="new12" finished-at="2024-09-22T14:51:29 IST" duration-ms="11" status="PASS">
+        <test-method signature="new12()[pri:0, instance:Tests.Menu@3e62d773]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new12 -->
       </class> <!-- Tests.Menu -->
       <class name="Tests.Events">
-        <test-method signature="new12()[pri:0, instance:Tests.Events@4808bc9b]" started-at="2024-09-22T14:51:29 IST" name="new12" finished-at="2024-09-22T14:51:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="new12()[pri:0, instance:Tests.Events@4808bc9b]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new12 -->
       </class> <!-- Tests.Events -->
       <class name="Tests.settings">
-        <test-method signature="new12()[pri:0, instance:Tests.settings@16c069df]" started-at="2024-09-22T14:51:29 IST" name="new12" finished-at="2024-09-22T14:51:29 IST" duration-ms="1" status="PASS">
+        <test-method signature="new12()[pri:0, instance:Tests.settings@70e38ce1]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new12 -->
       </class> <!-- Tests.settings -->
-      <class name="Tests.LiveView">
-        <test-method signature="new12()[pri:0, instance:Tests.LiveView@31edaa7d]" started-at="2024-09-22T14:51:29 IST" name="new12" finished-at="2024-09-22T14:51:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- new12 -->
-      </class> <!-- Tests.LiveView -->
       <class name="Tests.Gallery">
-        <test-method signature="new12()[pri:0, instance:Tests.Gallery@2bec854f]" started-at="2024-09-22T14:51:29 IST" name="new12" finished-at="2024-09-22T14:51:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="new12()[pri:0, instance:Tests.Gallery@31edaa7d]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new12 -->
       </class> <!-- Tests.Gallery -->
+      <class name="Tests.LiveView">
+        <test-method signature="new12()[pri:0, instance:Tests.LiveView@2bec854f]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new12 -->
+      </class> <!-- Tests.LiveView -->
       <class name="Tests.OnBoarding">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.OnBoarding@26adfd2d]" started-at="2024-09-22T14:51:29 IST" name="setUp" finished-at="2024-09-22T14:51:30 IST" duration-ms="431" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.OnBoarding@3336e6b6]" started-at="2024-09-22T17:15:57 IST" name="setUp" finished-at="2024-09-22T17:15:58 IST" duration-ms="425" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -133,7 +133,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:Tests.OnBoarding@26adfd2d]" started-at="2024-09-22T14:51:30 IST" name="testLogin" finished-at="2024-09-22T14:51:30 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testLogin()[pri:0, instance:Tests.OnBoarding@3336e6b6]" started-at="2024-09-22T17:15:58 IST" name="testLogin" finished-at="2024-09-22T17:15:58 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -229,13 +229,13 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.OnBoarding@26adfd2d]" started-at="2024-09-22T14:51:30 IST" name="tearDown" finished-at="2024-09-22T14:51:30 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.OnBoarding@3336e6b6]" started-at="2024-09-22T17:15:58 IST" name="tearDown" finished-at="2024-09-22T17:15:58 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.OnBoarding -->
       <class name="Tests.Fota">
-        <test-method signature="new12()[pri:0, instance:Tests.Fota@3336e6b6]" started-at="2024-09-22T14:51:30 IST" name="new12" finished-at="2024-09-22T14:51:30 IST" duration-ms="1" status="PASS">
+        <test-method signature="new12()[pri:0, instance:Tests.Fota@26adfd2d]" started-at="2024-09-22T17:15:57 IST" name="new12" finished-at="2024-09-22T17:15:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new12 -->
