@@ -7,7 +7,7 @@
             <class name="Tests.LiveView"/>
             <class name="Tests.Gallery"/>
             <class name="Tests.Events"/>
-            <class name="Tests.Settings"/>
+            <class name="Tests.settings"/>
             <class name="Tests.Menu"/>
             <class name="Tests.Fota"/>
         </classes>

@@ -3,6 +3,7 @@ package Tests;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -15,15 +16,15 @@ public class BaseClass {
 
     @BeforeMethod
     public void setUp() {
-        var options = new BaseOptions()
-            .amend("appium:platformName", "Android")
-            .amend("appium:deviceName", "ZA222JX8DZ")
-            .amend("appium:platformVersion", "14")
-            .amend("appium:app", "C:\\application\\app-release1.2.0.13.apk")
-            .amend("appium:automationName", "UiAutomator2")
-            .amend("appium:newCommandTimeout", 3600);
+        DesiredCapabilities cap=new DesiredCapabilities();
+            cap.setCapability("appium:platformName", "Android");
+            cap.setCapability("appium:deviceName", "ZA222JX8DZ");
+            cap.setCapability("appium:platformVersion", "14");
+            cap.setCapability("appium:app", "C:\\application\\app-release1.2.0.13.apk");
+            cap.setCapability("appium:automationName", "UiAutomator2");
+            cap.setCapability("appium:newCommandTimeout", 3600);
 
-        driver = new AndroidDriver(getUrl(), options);
+        driver = new AndroidDriver(getUrl(), cap);
     }
 
     private URL getUrl() {
